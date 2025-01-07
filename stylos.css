@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    overflow: hidden;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    display: flex;
+    gap: 68px;
+    padding: 70px;
+    color: white;
+    text-align: center;
+}
+
+.principal a{
+    color: rgb(167, 174, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.principal a:hover{
+    color: white;
+}
+
+.principal img{
+    height: 325px;
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+.principal img:hover{
+    scale: 1.05;
+}
+
+.principal h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
